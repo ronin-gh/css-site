@@ -1,24 +1,47 @@
 body {
-    background-color: #000000;
+    background-color: #FFFFFF;
 }
 h1{
-    color: chartreuse;
-    background-color: darkgrey;
     font-family: sans-serif;
     text-align: center;
     font-size: 72px;
 }
 a:link{
-    color: blueviolet;
+    color: #0027ff;
     font-family: serif;
-    text-align: left;
+    text-align: center;
 }
 a:visited{
     color: #4500ff
 }
 a:hover{
-    color: aliceblue
+    color: #d200f8
 }
 a:link{
     text-decoration: none;
+}
+div.header{
+    height: 90px;
+    width: 100%;
+    background-color: aqua;
+    padding: 0px 0px 0px 0px;
+}
+div.left{
+    float: left;
+    height: 180px;
+    width: 25%;
+    background-color: blueviolet;
+    padding: 10px 0px 10px 0px;
+}
+div.right{
+    float: right;
+    height: 180px;    
+    width: 75%;
+    background-color: #00ff58;
+    padding: 10px 0px 10px 0px;
+}
+div.footer{
+    width: 100%;
+    background-color: grey;
+    padding: 10px 10px 10px 10px;
 }
