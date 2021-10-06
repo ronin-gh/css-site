@@ -1,47 +1,53 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #d3dcfd;
 }
-h1{
+*{
+    margin: 0px;
+}
+h1 {
     font-family: sans-serif;
     text-align: center;
     font-size: 72px;
+    font-family: sans-serif;
 }
 a:link{
-    color: #0027ff;
-    font-family: serif;
+    padding: 10px 10px 10px 10px;
+    color: #cc0000;
+    font-family: sans-serif;
     text-align: center;
 }
-a:visited{
-    color: #4500ff
+a:hover {
+    color: #faa0a0;
 }
-a:hover{
-    color: #d200f8
+a:visited {
+    color: #051e8b;
 }
-a:link{
-    text-decoration: none;
-}
-div.header{
+div.header {
     height: 90px;
     width: 100%;
-    background-color: aqua;
+    background-color: #d3dcfd;
     padding: 0px 0px 0px 0px;
 }
-div.left{
+div.left {
     float: left;
-    height: 180px;
+    height: 500px;
     width: 25%;
-    background-color: blueviolet;
+    background-color: #e4e5f0;
     padding: 10px 0px 10px 0px;
+    font-family: sans-serif;
 }
-div.right{
-    float: right;
-    height: 180px;    
-    width: 75%;
-    background-color: #00ff58;
-    padding: 10px 0px 10px 0px;
+div.right {
+    float: left;
+    height: 500px;    
+    width: 70%;
+    background-color: #ffffff;
+    padding: 10px 23px 10px 24px;
+    font-family: sans-serif;
 }
-div.footer{
+div.footer {
     width: 100%;
-    background-color: grey;
+    background-color: #d3dcfd;
     padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-family: sans-serif;
 }
