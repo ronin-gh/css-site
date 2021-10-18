@@ -3,17 +3,16 @@ body {
 }
 *{
     margin: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 h1 {
     font-family: sans-serif;
     text-align: center;
     font-size: 72px;
-    font-family: sans-serif;
 }
 a:link{
     padding: 10px 10px 10px 10px;
     color: #cc0000;
-    font-family: sans-serif;
     text-align: center;
 }
 a:hover {
@@ -30,24 +29,26 @@ div.header {
 }
 div.left {
     float: left;
-    height: 500px;
+    height: 800px;
     width: 25%;
     background-color: #e4e5f0;
     padding: 10px 0px 10px 0px;
-    font-family: sans-serif;
 }
 div.right {
     float: left;
-    height: 500px;    
+    height: 800px;    
     width: 70%;
     background-color: #ffffff;
     padding: 10px 23px 10px 24px;
-    font-family: sans-serif;
 }
 div.footer {
     width: 100%;
     background-color: #d3dcfd;
     padding: 10px 10px 10px 10px;
     text-align: center;
-    font-family: sans-serif;
+}
+.header{
+    position: static;
+    top: 0px;
+        
 }
